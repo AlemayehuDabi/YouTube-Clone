@@ -1,0 +1,249 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  padding-left: 70px;
+  padding-top: 60px;
+  margin-bottom: 100px;
+}
+/* -- header -- */
+header {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3.5rem;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  padding: 0 16px;
+}
+.header-main {
+}
+/* -- header-left -- */
+.header-left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.youtube-logo {
+  width: 90px;
+  height: 60px;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-bottom: 5px;
+}
+.ham-div {
+  width: 40px;
+  height: 2.4rem;
+  display: flex;
+  padding: 7px 8px;
+  border-radius: 50%;
+}
+
+.ham-div:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.ham {
+  margin-right: 1rem;
+  width: 60px;
+  height: 25px;
+  cursor: pointer;
+}
+/* -- header-mid -- */
+.header-mid {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 45.5rem;
+  gap: 15px;
+}
+.search-bar-btn {
+  width: 82%;
+  display: flex;
+  height: 2.5rem;
+  border-radius: 20px;
+}
+
+.search-bar {
+  width: 90%;
+  height: 100%;
+  padding: 15px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.search-bar:focus {
+  outline: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.search-bar:active {
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.header-mid-btn {
+  width: 10%;
+  height: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.search {
+  width: 24px;
+  height: 24px;
+}
+
+.voice-div {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.voice {
+  width: 20px;
+  height: 20px;
+}
+/* -- header-right -- */
+.header-right {
+  width: 14.07rem;
+  padding: 10px;
+}
+.header-right-in {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.header-right-img-div {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.flowing-num {
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  background-color: rgb(211, 3, 3);
+  color: white;
+  border-radius: 15px;
+  width: 22px;
+  height: 16px;
+  font-size: 12px;
+  text-align: center;
+  padding: 0 4px;
+  font-weight: bold;
+  text-align: center;
+}
+.header-right-img {
+  width: 24px;
+  height: 24px;
+}
+.header-div-profile {
+  width: 60px;
+  height: 34px;
+  text-align: center;
+}
+.img-account {
+  border-radius: 140px;
+  width: 34px;
+  height: 34px;
+}
+
+/* -- main -- */
+main {
+  display: flex;
+  background-color: rgb(250, 250, 250);
+}
+/* -- nav -- */
+nav {
+  top: 3.7rem;
+  left: 0;
+  bottom: 0;
+  width: 72px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  position: fixed;
+}
+.nav-fir-div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 74px;
+}
+.nav-img {
+  height: 25px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+.nav-word {
+  font-size: 10px;
+  cursor: pointer;
+}
+/* -- insider main */
+.main {
+  display: grid;
+  grid: wrap;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 50px;
+  padding-left: 25px;
+  padding-top: 25px;
+  border: 1px solid rgb(235, 235, 235);
+}
+
+.div-1 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.div-thumbnail {
+  width: 100%;
+}
+.logo {
+  width: 100%;
+  border-radius: 50px;
+}
+.div-logo {
+  width: 40px;
+  margin-right: 8px;
+}
+
+.img {
+  width: 100%;
+  border-radius: 8px;
+}
+.div-video-info {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.title {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.name-channel {
+  margin-bottom: 8px;
+}
+.view-info,
+.name-channel {
+  font-size: 14px;
+}
